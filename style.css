@@ -1,29 +1,54 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 
-.cabecalho{
-    background-color: rgb(255, 255, 255);
-    color:black;
+body {
+    font-family: 'AR One Sans
+    ', sans-serif;
+}
+
+
+.cabecalho {
+    background-color: #5b4261;
+    color: white;
     display: flex;
-    justify-content: spece-around;
+    justify-content: space-around;
     align-items: center;
     padding: 24px 0;
 }
-
 
 .cabecalho-imagem{
     width: 10%;
 }
 
-.cabecalho-lista{
+.cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
-body{
-    background-color: rgb(0, 0, 0);
+.escola-imagem{
+    width: 20%;
+}
+
+.escola{
+    background-image: linear-gradient(#5a4261,#f416f8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.escola-div-conteudo{
+    width: 40%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante-imagem{
+    width: 120px;
 }
